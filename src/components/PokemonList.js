@@ -31,7 +31,7 @@ const PokemonList = () => {
     event.preventDefault();
     getPokemon();
   }
-  fetch(`https://pokeapi.co/api/v2/pokemon`);
+
   return(
     <Container
       className="sticky-top"
